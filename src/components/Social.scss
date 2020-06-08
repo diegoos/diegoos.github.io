@@ -1,0 +1,17 @@
+@import "@styles/base.scss";
+
+.ds-social {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  list-style: none;
+
+  &__link {
+    color: $main-text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $hover-text-color;
+    }
+  }
+}
