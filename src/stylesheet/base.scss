@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #111111;
+  background-color: #18222d;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: $main-text-color;
@@ -33,6 +33,7 @@ a {
   align-items: center;
   flex-direction: column;
   height: 100%;
+  box-sizing: border-box;
 
   @media screen and (max-width: 768px) {
     justify-content: start;

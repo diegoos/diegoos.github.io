@@ -9,20 +9,6 @@ import Social from "./components/Social";
 import About from "./components/About";
 
 function App(props) {
-  let config = {
-    num: [0, 3],
-    rps: 0.5,
-    life: [0, 20],
-    v: [0, 0],
-    alpha: [1, 0],
-    scale: [0, 7],
-    position: 'screen',
-    cross: 'dead',
-    g: 0,
-    color: 'random',
-    rotate: [true]
-  };
-
   return (
     <div className="container">
       <Logo />
@@ -30,7 +16,7 @@ function App(props) {
       <Social />
 
       <div className="ds-app__bg">
-        <ParticlesBg color="#3a3a3a0" num={10} type="custom" bg={true} config={config} />
+        <ParticlesBg color="#dbdbdb" num={50} type="cobweb" bg={true} />
       </div>
     </div>
   );
