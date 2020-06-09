@@ -16,6 +16,17 @@ h1 {
   margin: 0;
 }
 
+a {
+  color: $link-text-color;
+  text-decoration: none;
+  transition: 0.2s;
+  font-weight: bold;
+
+  &:hover {
+    color: $hover-text-color;
+  }
+}
+
 .app-container {
   display: flex;
   justify-content: center;
