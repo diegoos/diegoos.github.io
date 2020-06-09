@@ -1,0 +1,27 @@
+@import "@styles/base.scss";
+
+.ds-social {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  transform: translateX(-50%);
+  list-style: none;
+
+  &__link {
+    color: $main-text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $hover-text-color;
+    }
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+  }
+}
